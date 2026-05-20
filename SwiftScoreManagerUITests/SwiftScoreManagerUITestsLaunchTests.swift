@@ -1,13 +1,13 @@
 //
-//  SwiftTaskManagerUITestsLaunchTests.swift
-//  SwiftTaskManagerUITests
+//  SwiftScoreManagerUITestsLaunchTests.swift
+//  SwiftScoreManagerUITests
 //
 //  Created by Uttam Bhattcharjee on 04/05/26.
 //
 
 import XCTest
 
-final class SwiftTaskManagerUITestsLaunchTests: XCTestCase {
+final class SwiftScoreManagerUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

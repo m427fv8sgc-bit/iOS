@@ -12,37 +12,37 @@
 			containerPortal = 877C80C22FA919380011263F /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 877C80C92FA919380011263F;
-			remoteInfo = SwiftTaskManager;
+			remoteInfo = SwiftScoreManager;
 		};
 		877C80E22FA9193A0011263F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 877C80C22FA919380011263F /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 877C80C92FA919380011263F;
-			remoteInfo = SwiftTaskManager;
+			remoteInfo = SwiftScoreManager;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		877C80CA2FA919380011263F /* SwiftTaskManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTaskManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		877C80D72FA9193A0011263F /* SwiftTaskManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTaskManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		877C80E12FA9193A0011263F /* SwiftTaskManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTaskManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		877C80CA2FA919380011263F /* SwiftScoreManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftScoreManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		877C80D72FA9193A0011263F /* SwiftScoreManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftScoreManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		877C80E12FA9193A0011263F /* SwiftScoreManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftScoreManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		877C80CC2FA919380011263F /* SwiftTaskManager */ = {
+		877C80CC2FA919380011263F /* SwiftScoreManager */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SwiftTaskManager;
+			path = SwiftScoreManager;
 			sourceTree = "<group>";
 		};
-		877C80DA2FA9193A0011263F /* SwiftTaskManagerTests */ = {
+		877C80DA2FA9193A0011263F /* SwiftScoreManagerTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SwiftTaskManagerTests;
+			path = SwiftScoreManagerTests;
 			sourceTree = "<group>";
 		};
-		877C80E42FA9193A0011263F /* SwiftTaskManagerUITests */ = {
+		877C80E42FA9193A0011263F /* SwiftScoreManagerUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SwiftTaskManagerUITests;
+			path = SwiftScoreManagerUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,9 +75,9 @@
 		877C80C12FA919380011263F = {
 			isa = PBXGroup;
 			children = (
-				877C80CC2FA919380011263F /* SwiftTaskManager */,
-				877C80DA2FA9193A0011263F /* SwiftTaskManagerTests */,
-				877C80E42FA9193A0011263F /* SwiftTaskManagerUITests */,
+				877C80CC2FA919380011263F /* SwiftScoreManager */,
+				877C80DA2FA9193A0011263F /* SwiftScoreManagerTests */,
+				877C80E42FA9193A0011263F /* SwiftScoreManagerUITests */,
 				877C80CB2FA919380011263F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,9 +85,9 @@
 		877C80CB2FA919380011263F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				877C80CA2FA919380011263F /* SwiftTaskManager.app */,
-				877C80D72FA9193A0011263F /* SwiftTaskManagerTests.xctest */,
-				877C80E12FA9193A0011263F /* SwiftTaskManagerUITests.xctest */,
+				877C80CA2FA919380011263F /* SwiftScoreManager.app */,
+				877C80D72FA9193A0011263F /* SwiftScoreManagerTests.xctest */,
+				877C80E12FA9193A0011263F /* SwiftScoreManagerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		877C80C92FA919380011263F /* SwiftTaskManager */ = {
+		877C80C92FA919380011263F /* SwiftScoreManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 877C80EB2FA9193A0011263F /* Build configuration list for PBXNativeTarget "SwiftTaskManager" */;
+			buildConfigurationList = 877C80EB2FA9193A0011263F /* Build configuration list for PBXNativeTarget "SwiftScoreManager" */;
 			buildPhases = (
 				877C80C62FA919380011263F /* Sources */,
 				877C80C72FA919380011263F /* Frameworks */,
@@ -108,18 +108,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				877C80CC2FA919380011263F /* SwiftTaskManager */,
+				877C80CC2FA919380011263F /* SwiftScoreManager */,
 			);
-			name = SwiftTaskManager;
+			name = SwiftScoreManager;
 			packageProductDependencies = (
 			);
-			productName = SwiftTaskManager;
-			productReference = 877C80CA2FA919380011263F /* SwiftTaskManager.app */;
+			productName = SwiftScoreManager;
+			productReference = 877C80CA2FA919380011263F /* SwiftScoreManager.app */;
 			productType = "com.apple.product-type.application";
 		};
-		877C80D62FA9193A0011263F /* SwiftTaskManagerTests */ = {
+		877C80D62FA9193A0011263F /* SwiftScoreManagerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 877C80EE2FA9193A0011263F /* Build configuration list for PBXNativeTarget "SwiftTaskManagerTests" */;
+			buildConfigurationList = 877C80EE2FA9193A0011263F /* Build configuration list for PBXNativeTarget "SwiftScoreManagerTests" */;
 			buildPhases = (
 				877C80D32FA9193A0011263F /* Sources */,
 				877C80D42FA9193A0011263F /* Frameworks */,
@@ -131,18 +131,18 @@
 				877C80D92FA9193A0011263F /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				877C80DA2FA9193A0011263F /* SwiftTaskManagerTests */,
+				877C80DA2FA9193A0011263F /* SwiftScoreManagerTests */,
 			);
-			name = SwiftTaskManagerTests;
+			name = SwiftScoreManagerTests;
 			packageProductDependencies = (
 			);
-			productName = SwiftTaskManagerTests;
-			productReference = 877C80D72FA9193A0011263F /* SwiftTaskManagerTests.xctest */;
+			productName = SwiftScoreManagerTests;
+			productReference = 877C80D72FA9193A0011263F /* SwiftScoreManagerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		877C80E02FA9193A0011263F /* SwiftTaskManagerUITests */ = {
+		877C80E02FA9193A0011263F /* SwiftScoreManagerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 877C80F12FA9193A0011263F /* Build configuration list for PBXNativeTarget "SwiftTaskManagerUITests" */;
+			buildConfigurationList = 877C80F12FA9193A0011263F /* Build configuration list for PBXNativeTarget "SwiftScoreManagerUITests" */;
 			buildPhases = (
 				877C80DD2FA9193A0011263F /* Sources */,
 				877C80DE2FA9193A0011263F /* Frameworks */,
@@ -154,13 +154,13 @@
 				877C80E32FA9193A0011263F /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				877C80E42FA9193A0011263F /* SwiftTaskManagerUITests */,
+				877C80E42FA9193A0011263F /* SwiftScoreManagerUITests */,
 			);
-			name = SwiftTaskManagerUITests;
+			name = SwiftScoreManagerUITests;
 			packageProductDependencies = (
 			);
-			productName = SwiftTaskManagerUITests;
-			productReference = 877C80E12FA9193A0011263F /* SwiftTaskManagerUITests.xctest */;
+			productName = SwiftScoreManagerUITests;
+			productReference = 877C80E12FA9193A0011263F /* SwiftScoreManagerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 877C80C52FA919380011263F /* Build configuration list for PBXProject "SwiftTaskManager" */;
+			buildConfigurationList = 877C80C52FA919380011263F /* Build configuration list for PBXProject "SwiftScoreManager" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				877C80C92FA919380011263F /* SwiftTaskManager */,
-				877C80D62FA9193A0011263F /* SwiftTaskManagerTests */,
-				877C80E02FA9193A0011263F /* SwiftTaskManagerUITests */,
+				877C80C92FA919380011263F /* SwiftScoreManager */,
+				877C80D62FA9193A0011263F /* SwiftScoreManagerTests */,
+				877C80E02FA9193A0011263F /* SwiftScoreManagerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		877C80D92FA9193A0011263F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 877C80C92FA919380011263F /* SwiftTaskManager */;
+			target = 877C80C92FA919380011263F /* SwiftScoreManager */;
 			targetProxy = 877C80D82FA9193A0011263F /* PBXContainerItemProxy */;
 		};
 		877C80E32FA9193A0011263F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 877C80C92FA919380011263F /* SwiftTaskManager */;
+			target = 877C80C92FA919380011263F /* SwiftScoreManager */;
 			targetProxy = 877C80E22FA9193A0011263F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -321,7 +321,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -378,7 +378,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -397,6 +397,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SwiftScoreManager;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -407,7 +408,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.uttam.SwiftTaskManager;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uttam.SwiftScoreManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -428,6 +429,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SwiftScoreManager;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -438,7 +440,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.uttam.SwiftTaskManager;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uttam.SwiftScoreManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -457,9 +459,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.uttam.SwiftTaskManagerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uttam.SwiftScoreManagerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -467,7 +469,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftTaskManager.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftTaskManager";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftScoreManager.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftScoreManager";
 			};
 			name = Debug;
 		};
@@ -478,9 +480,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.uttam.SwiftTaskManagerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uttam.SwiftScoreManagerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -488,7 +490,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftTaskManager.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftTaskManager";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftScoreManager.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftScoreManager";
 			};
 			name = Release;
 		};
@@ -499,7 +501,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.uttam.SwiftTaskManagerUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uttam.SwiftScoreManagerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -507,7 +509,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SwiftTaskManager;
+				TEST_TARGET_NAME = SwiftScoreManager;
 			};
 			name = Debug;
 		};
@@ -518,7 +520,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.uttam.SwiftTaskManagerUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uttam.SwiftScoreManagerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -526,14 +528,14 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SwiftTaskManager;
+				TEST_TARGET_NAME = SwiftScoreManager;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		877C80C52FA919380011263F /* Build configuration list for PBXProject "SwiftTaskManager" */ = {
+		877C80C52FA919380011263F /* Build configuration list for PBXProject "SwiftScoreManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				877C80E92FA9193A0011263F /* Debug */,
@@ -542,7 +544,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		877C80EB2FA9193A0011263F /* Build configuration list for PBXNativeTarget "SwiftTaskManager" */ = {
+		877C80EB2FA9193A0011263F /* Build configuration list for PBXNativeTarget "SwiftScoreManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				877C80EC2FA9193A0011263F /* Debug */,
@@ -551,7 +553,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		877C80EE2FA9193A0011263F /* Build configuration list for PBXNativeTarget "SwiftTaskManagerTests" */ = {
+		877C80EE2FA9193A0011263F /* Build configuration list for PBXNativeTarget "SwiftScoreManagerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				877C80EF2FA9193A0011263F /* Debug */,
@@ -560,7 +562,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		877C80F12FA9193A0011263F /* Build configuration list for PBXNativeTarget "SwiftTaskManagerUITests" */ = {
+		877C80F12FA9193A0011263F /* Build configuration list for PBXNativeTarget "SwiftScoreManagerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				877C80F22FA9193A0011263F /* Debug */,
