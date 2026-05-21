@@ -10,11 +10,10 @@ import SwiftUI
 // MARK: - Content View
 struct ContentView: View {
     @StateObject private var scoreManager = ScoreManager()
-    @State private var showingAddStudent = false
     @State private var showingComingSoonAlert = false
-    @State private var studentToEdit: Student?
+    @State private var studentFormMode: StudentFormView.Mode?
     
-    var body: some View { // Review: Combine add/ edit in a single sceen and make it parametarised. Also use ContentUnavailableView
+    var body: some View {
         NavigationView {
             VStack {
                 sortControlsView
@@ -31,18 +30,15 @@ struct ContentView: View {
                 
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button {
-                        showingAddStudent = true
+                        studentFormMode = .add
                     } label: {
                         Image(systemName: "plus")
                     }
                 }
             
             }
-            .sheet(isPresented: $showingAddStudent) {
-                AddStudentView(scoreManager: scoreManager)
-            }
-            .sheet(item: $studentToEdit) { student in
-                EditStudentView(scoreManager: scoreManager, student: student)
+            .sheet(item: $studentFormMode) { mode in
+                StudentFormView(scoreManager: scoreManager, mode: mode)
             }
             .alert("Coming Soon", isPresented: $showingComingSoonAlert) {
                 Button("OK", role: .cancel) { }
@@ -53,17 +49,17 @@ struct ContentView: View {
     }
 
     @ViewBuilder
-    private var studentsContentView: some View { //
+    private var studentsContentView: some View {
         List {
             ForEach(scoreManager.filteredStudents) { student in
                 StudentRowView(student: student)
                     .contentShape(Rectangle())
                     .onTapGesture {
-                        studentToEdit = student
+                        studentFormMode = .edit(student)
                     }
                     .swipeActions(edge: .trailing) {
                         Button {
-                            studentToEdit = student
+                            studentFormMode = .edit(student)
                         } label: {
                             Label("Edit", systemImage: "pencil")
                         }
