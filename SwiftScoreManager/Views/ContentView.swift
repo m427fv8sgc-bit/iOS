@@ -55,11 +55,13 @@ struct ContentView: View {
                 StudentRowView(student: student)
                     .contentShape(Rectangle())
                     .onTapGesture {
-                        studentFormMode = .edit(student)
+                       // studentFormMode = .edit(student)
+                        editStudent(student)
                     }
                     .swipeActions(edge: .trailing) {
                         Button {
-                            studentFormMode = .edit(student)
+                           // studentFormMode = .edit(student)
+                            editStudent(student)
                         } label: {
                             Label("Edit", systemImage: "pencil")
                         }
@@ -80,6 +82,10 @@ struct ContentView: View {
             }
         }
         
+    }
+    
+    private func editStudent(_ student: Student) { // common function created.
+        studentFormMode = .edit(student)
     }
     
     private var averageView: some View {
